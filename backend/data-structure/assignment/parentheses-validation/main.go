@@ -26,4 +26,7 @@ import "github.com/ruang-guru/playground/backend/data-structure/assignment/paren
 
 func IsValidParentheses(s string) bool {
 	// TODO: answer here
+	if len(s)%2 !=0 || len(s) == 0 (
+		return false
+	)
 }
